@@ -17,4 +17,10 @@
  then we can adjust the position of the button using x,center_x,right (for horizontal)
  and for vertical y,center_y,top(for vertical)
 
+##Anchor layout
+Here main things to focus to chnage the position of the button is 
+anchor_x-->right,left,center
+anchor_y-->top,bottom,center
+
+
 
