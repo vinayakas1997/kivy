@@ -1,10 +1,33 @@
-BoxLayoutExample:
-<BoxLayoutExample>:
+AnchorLayoutExample:
+<AnchorLayoutExample>:
     Button:
         text:"A"
+        size_hint=.1, .1
+<BoxLayoutExample>:
+    #orientation: "vertical"
     Button:
-        text:"B"
-    Button:
+        text:"A"
+        #size: "40dp","80dp" this is ignored the position doesnt matter in the box layout 
+        size_hint: .5,.5   #(width,height)
+        #width:"100dp"
+        #height:"60dp"
+        #x,center_x,right
+        #y,center_y,top
+        pos_hint:{"center_y":.5}
+
+    BoxLayout:    
+        orientation:"vertical"
+        spacing:"10dp"
+        Button:
+            text:"B1"
+        Button:
+            text:"B2"
+        Button:
+            text:"B3"
+        Button:
+            text:"B4"
+        
+    Label:
         text:"C"
 
 <MainWidget>:

@@ -13,4 +13,8 @@
 
 
  ##Box layout  
+ default the orientation is horizontal then we can change into vertical 
+ then we can adjust the position of the button using x,center_x,right (for horizontal)
+ and for vertical y,center_y,top(for vertical)
+
 
