@@ -35,4 +35,9 @@ orientation:"rl-bt"(right to left and bottom to top)
 padding:("20dp","20dp","20dp","20dp")--> it takes four values gives the space between the box and the borders 
 spacing:("20dp","20dp") --> This gives the spacing between the boxes horizontal and vertical
 
-
+##Scroll view 
+Think that I have 100 buttons so as it is more than the size of the default window so we can use the scroll view 
+The main thing we have to keep in the mind is the isto define the size of the width and height 
+if you want to scroll only down wards then use the height and give your own value 
+If you want sufficienyt height then we can definew by 
+height:self.minimum_height 
