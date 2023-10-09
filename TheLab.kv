@@ -1,4 +1,70 @@
-MainWidget:
+StackLayoutExample:
+<StackLayoutExample>:
+    #left-right top-bottom
+    #orientation:"rl-bt"
+    #padding:("20dp","20dp","20dp","20dp")
+    #spacing:("20dp","20dp")
+
+
+<GridLayoutExample@GridLayout>:
+    #rows
+    #cols
+    cols:3
+    rows:2
+    Button:
+        text:"A"
+        size_hint:None,1
+        width:"60dp"
+    BoxLayoutExample:
+    Button:
+        text:"C"
+    Button:
+        text:"D"
+        size_hint:None,1
+        width:"60dp"
+    Button:
+        text:"E"
+    Button:
+        text:"F"
+
+<AnchorLayoutExample>:
+    #right,left,center
+    anchor_x:"center"
+    #bottom,top,center
+    anchor_y:"top"
+    BoxLayout:
+        size_hint:.2,.2
+        Button:
+            text:"A"
+        Button:
+            text:"B"
+           
+<BoxLayoutExample>:
+    #orientation: "vertical"
+    Button:
+        text:"A"
+        #size: "40dp","80dp" this is ignored the position doesnt matter in the box layout 
+        size_hint: .5,.5   #(width,height)
+        #width:"100dp"
+        #height:"60dp"
+        #x,center_x,right
+        #y,center_y,top
+        pos_hint:{"center_y":.5}
+
+    BoxLayout:    
+        orientation:"vertical"
+        spacing:"10dp"
+        Button:
+            text:"B1"
+        Button:
+            text:"B2"
+        Button:
+            text:"B3"
+        Button:
+            text:"B4"
+        
+    Label:
+        text:"C"
 
 <MainWidget>:
     Button:
