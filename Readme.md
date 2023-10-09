@@ -23,4 +23,16 @@ anchor_x-->right,left,center
 anchor_y-->top,bottom,center
 
 
+##Grid Layout 
+Here main things to focus on is rows amd cols.
+rows:3
+cols:2 so it creates two 3 rows and 2 columns 
+
+##Stack Layout
+The main things is kept in t he mind are how the stacking takes place 
+ ===left-right top-bottom(default --> lr-bt)
+orientation:"rl-bt"(right to left and bottom to top)
+padding:("20dp","20dp","20dp","20dp")--> it takes four values gives the space between the box and the borders 
+spacing:("20dp","20dp") --> This gives the spacing between the boxes horizontal and vertical
+
 
